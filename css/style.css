@@ -558,29 +558,6 @@ About
 }
 
 /*--------------------------------
- Feature
----------------------------------*/
-/*
-.feature-item {
-  display: flex;
-  flex-wrap: wrap;
-}
-
-.feature-image-wrapper {
-  flex: 0 0 45%;
-  margin-right: 40px;
-}
-
-.feature-body {
-  flex: 1;
-}
-
-.feature-body p:not(:last-child) {
-  margin-bottom: 20px;
-}
-*/
-
-/*--------------------------------
  Skill
 ---------------------------------*/
 .skill-section .inner {
@@ -850,17 +827,6 @@ About
         margin-bottom: 30px;
     }
 
-    /* Feature */
-    .feature-item {
-        display: block;
-    }
-
-    .feature-image-wrapper {
-        max-width: 100%;
-        margin-right: 0;
-        margin-bottom: 20px;
-    }
-
     /* About */
     .about-item {
         display: block;
@@ -934,3 +900,56 @@ About
         padding: 20px 0;
     }
 }
+
+@media screen and (max-width: 400px) {
+    /* グローバルナビ */
+    .gnav {
+        padding: 10px 0;
+    }
+
+    .gnav-item {
+        font-size: 12px;
+        padding: 2px 8px;
+    }
+
+    .gnav-lang:last-child {
+        font-family: "Open sans", sans-serif;
+        font-size: 10px;
+        padding: 2px 10px;
+        letter-spacing: .0em;
+        margin-left: auto;
+    }
+
+    .gnav-link {
+        padding: 0;
+    }
+
+    .gnav-link:hover {
+        opacity: 1;
+    }
+
+    .gnav-link:after {
+        display: none;
+    }
+    
+    /* Works */
+    .works-body {
+        text-align: center;
+    }
+
+    .works-title {
+        font-size: 10px;
+    }
+
+    .works-list {
+        justify-content: center;
+    }
+
+    .works-item {
+        flex: 0 0 80%;
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+
+}
+
