@@ -569,14 +569,10 @@ About
     flex-wrap: wrap;
     justify-content: space-between;
     margin-bottom: -50px;
-    margin-left: 50px;
+/*    margin-left: 50px;*/
 }
 
 .skill-item {
-    display: flex;
-    flex: 0 0 46%;
-    flex-wrap: wrap;
-    justify-content: space-between;
     margin-bottom: 50px;
 }
 
@@ -588,7 +584,7 @@ About
 .skill-image-wrapper-inner {
     flex: 0 0 60px;
     margin-right: 20px;
-    margin-bottom: 5px;
+    margin-bottom: 10px;
     width: 60px;
 }
 
@@ -607,56 +603,6 @@ About
     line-height: 1;
     margin-bottom: 15px;
     text-align: left;
-}
-
-.rate {
-    position: relative;
-    font-size: 16px;
-    display: inline-block;
-    width: 100%;
-    height: 20px;
-    letter-spacing: .3em;
-}
-
-.rate:before,
-.rate:after {
-    position: absolute;
-    top: 0;
-    left: 0;
-    line-height: 20px;
-    display: inline-block;
-    height: 20px;
-    content: "★★★★★";
-}
-
-.rate:before {
-    color: #ddd;
-}
-
-.rate:after {
-    overflow: hidden;
-    white-space: nowrap;
-    color: #f181b4;
-}
-
-.rate1:after {
-    width: 20px;
-}
-
-.rate2:after {
-    width: 40px;
-}
-
-.rate3:after {
-    width: 60px;
-}
-
-.rate4:after {
-    width: 80px;
-}
-
-.rate5:after {
-    width: 100px;
 }
 
 /*--------------------------------
@@ -839,8 +785,12 @@ About
     }
 
     /* Skill */
+    .skill-title {
+        font-size: 16px;
+    }
     .skill-list {
-        display: block;
+        display: flex;
+        justify-content: center;
         margin-bottom: 0;
     }
 
