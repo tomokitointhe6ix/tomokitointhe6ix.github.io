@@ -443,7 +443,7 @@ About
 
     #conference-timeline .conference-center-line {
         margin-left: 0;
-        left: 30px;
+        left: 20px;
     }
     
     #conference-timeline .timeline-start,
@@ -452,7 +452,10 @@ About
     }
 
     .timeline-article .meta-date {
+        width: 42px;
+        height: 42px;
         margin-left: 0;
+        margin-top: 10px;
         left: 0px;
     }
 
@@ -461,17 +464,17 @@ About
         max-width: 100%;
         width: auto;
         float: none;
-        margin-left: 80px;
+        margin-left: 60px;
         min-height: 53px;
     }
 
     .timeline-article .content-left-container {
-        margin-bottom: 20px;
+/*        margin-bottom: 20px;*/
     }
 
     .timeline-article .content-left,
     .timeline-article .content-right {
-        padding: 10px 25px;
+        padding: 10px 10px;
         min-height: 65px;
     }
 
