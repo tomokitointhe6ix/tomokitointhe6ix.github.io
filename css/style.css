@@ -114,12 +114,12 @@ contact-image .hover-action {
 ---------------------------------*/
 .wrapper {
     padding-top: 68px;
-    background-color: #b0d9b2;
+    background-color: #9acf9d;
 }
 
 .section {
     padding: 120px 0;
-    background-color: #b0d9b2;
+    background-color: #9acf9d;
 }
 
 .section:nth-of-type(odd) {
@@ -140,7 +140,7 @@ Header
     align-items: center;
     justify-content: center;
     height: 86vh;
-    background-color: #b0d9b2;
+    background-color: #9acf9d;
 }
 
 .logo {
