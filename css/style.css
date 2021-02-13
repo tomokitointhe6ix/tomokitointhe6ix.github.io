@@ -114,16 +114,16 @@ contact-image .hover-action {
 ---------------------------------*/
 .wrapper {
     padding-top: 68px;
-    background-color: #9acf9d;
+    background-color: #82c985;
 }
 
 .section {
     padding: 120px 0;
-    background-color: #9acf9d;
+    background-color: #82c985;
 }
 
 .section:nth-of-type(odd) {
-    background-color: #91b493;
+    background-color: #7aa57d;
 }
 
 .inner {
@@ -140,7 +140,7 @@ Header
     align-items: center;
     justify-content: center;
     height: 86vh;
-    background-color: #9acf9d;
+    background-color: #82c985;
 }
 
 .logo {
@@ -173,7 +173,7 @@ Header
     left: 0;
     z-index: 100;
     width: 100%;
-    background-color: #91b493;
+    background-color: #7aa57d;
     -webkit-box-shadow: 0 3px 3px -3px rgba(0, 0, 0, .2);
     -moz-box-shadow: 0 3px 3px -3px rgba(0, 0, 0, .2);
     box-shadow: 0 3px 3px -3px rgba(0, 0, 0, .2);
@@ -633,7 +633,7 @@ About
  Footer
 ---------------------------------*/
 .footer {
-    background-color: #91b493;
+    background-color: #7aa57d;
 }
 
 .footer .inner {
